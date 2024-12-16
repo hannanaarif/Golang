@@ -37,11 +37,11 @@ func printstringSlice(items[]string){
 func main() {
 	fmt.Println("Generics")
 
-	// myStack:=stack{
-	// 	element:[]int{1,2,3},
-	// }
+	myStack:=stack{
+		element:[]int{1,2,3},
+	}
 
-	// fmt.Println(myStack);
+	fmt.Println(myStack);
 
 
 
@@ -53,11 +53,11 @@ func main() {
 
 
 
-	// nums:=[]int{1,2,3}
-	// names:=[]string{"golang,typescript"}
-	// // printstringSlice(names)
-	// printSlice(names)
-	// printSlice(nums)
+	nums:=[]int{1,2,3}
+	names:=[]string{"golang,typescript"}
+	// printstringSlice(names)
+	printSlice(names)
+	printSlice(nums)
 
 
 }
